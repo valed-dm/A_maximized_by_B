@@ -3,9 +3,7 @@
 
 def max_value(str_a: str, str_b: str) -> str:
     # Sort digits in ascending order
-    str_b = sorted(str_b)
-    print(str_b)
-    bi = [i for i in str_b]
+    bi: list = sorted(str_b)
     print(bi)
     ai = [i for i in str_a]
     print(ai)
