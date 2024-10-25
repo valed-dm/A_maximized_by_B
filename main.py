@@ -1,4 +1,5 @@
 # Function to return the maximized value of A
+# https://www.geeksforgeeks.org/maximize-the-value-of-a-by-replacing-some-of-its-digits-with-digits-of-b/
 
 def max_value(str_a: str, str_b: str) -> str:
     # Sort digits in ascending order
